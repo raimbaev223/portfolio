@@ -91,25 +91,13 @@
 				<!-- Menu -->
 					<nav id="menu" class="col-md-10 col-sm-10">
 						<ul class="hidden-xs">
-							<li><a class="menu-active" href="#">Home</a>
-							<!-- Drop Down -->
-								<ul>
-					                <li><a href="#">Home 1</a></li>
-					            </ul>
+							<li><a href="#">Главная</a>
 							</li>
-							<li><a href="#">Blog</a>
-							<!-- Drop Down -->
-								<ul>
-									<li><a href="#">full width</a></li>
-					            </ul>
+							<li><a href="#">Блог</a>
 							</li>
-							<li><a href="#">Gallery</a>
-							<!-- Drop Down -->
-								<ul>
-					                <li><a href="#">2 column</a></li>
-					            </ul>
+							<li><a href="{% url 'contact_page' %}">Контакты</a>
 							</li>
-							<li><a href="#">About Me</a></li>
+							<li><a href="#">Я</a></li>
 						</ul>
 						<div class="mobile-menu col-xs-2 pull-right visible-xs">
 							<i class="fa fa-bars fa-2x"></i>
@@ -122,6 +110,13 @@
 		<!-- /Header -->
 
 			{% block content %}{% endblock %}
+
+
+			<!-- Back to top button -->
+				<a href="#logo" class="back-top btn">
+					<i class="fa fa-angle-up fa-2x"></i>
+				</a>
+			<!-- /Back to top button -->
 
             		<!-- Footer -->
 			<footer id="footer" class="fixed white">

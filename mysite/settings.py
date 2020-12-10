@@ -121,3 +121,8 @@ USE_TZ = True
 
 STATIC_URL = '/portfolio/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'portfolio/static')
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'initmenthor@gmail.com'
+EMAIL_HOST_PASSWORD = 'Ar0321519'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
